@@ -1,0 +1,2 @@
+* Armar un layout básico separado en componentes estáticos utilizando como apoyo el material complementario provisto. 
+* Subir a un repositorio publico en GitHub y compartir la URL del mismo.
