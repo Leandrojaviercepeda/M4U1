@@ -22,7 +22,7 @@ const ContactoPage = () => {
             <label>Comentario</label>
             <textarea name="mensaje"/>
           </p>
-          <p clasName="centrar">
+          <p className="centrar">
             <input type="submit" value="Enviar"/>
           </p>
         </form>

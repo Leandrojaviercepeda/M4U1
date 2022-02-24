@@ -1,0 +1,23 @@
+header {
+    display: flexbox;
+}
+
+.holder {
+    background-color: #3C61A0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 0.5em;
+    cursor: pointer;
+    column-gap: 0.5em;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const NosotrosPage = () => {
   return (
-    <section clasName="holder">
+    <section className="holder">
       <div className="historia">
         <h2>Historia</h2>
         <p>

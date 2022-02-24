@@ -7,6 +7,8 @@ import HomePage from './pages/HomePage';
 import NosotrosPage from './pages/NosotrosPage';
 import NovedadesPage from './pages/NovedadesPage';
 import ContactoPage from './pages/ContactoPage';
+// import ServiciosPage from './pages/ServiciosPage';
+import LayoutBasico from './components/layout/LayoutBasico';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/nosotros" exact component={NosotrosPage}/> 
         <Route path="/novedades" exact component={NovedadesPage}/> 
         <Route path="/contacto" exact component={ContactoPage}/> 
+        {/* <Route path="/servicios" exact component={ServiciosPage}/>  */}
+        <Route path="/layout-basico" exact component={LayoutBasico}/> 
       </Switch>
       <Footer/>
     </Router>
